@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = "";
+    for (let i = 0; i < 26; i++) {
+        a += "*";
+    }
+    for (let i = 0; i<5; i++) {
+        a += "<br>"+"*";
+
+        for (let j = 0; j < 12; j++) {
+            a += "&nbsp&nbsp&nbsp&nbsp";
+        }
+        a += ("*<br>");
+    }
+    for (let i = 0; i < 26; i++) {
+        a += "*";
+    }
+
+    document.write(a);
+</script>
+</body>
+</html>
